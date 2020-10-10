@@ -11,24 +11,7 @@ class Book{
 
 class UI{
     static displayBooks(){
-        const storeBooks = [
-            {title: "Book one",
-             author: "achebe",
-             isbn: "3455"
-            },
-            {title: "Book two",
-             author: "achebe",
-             isbn: "3455"
-            },
-            {title: "Book three",
-             author: "achebe",
-             isbn: "3455"
-            },
-            {title: "Book four",
-             author: "achebe",
-             isbn: "3455"
-            }
-        ];
+ 
 
         const books = storeBooks;
         books.forEach((book)=> UI.addBookToList(book)); 
