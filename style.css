@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    max-width: 700px;
+    margin: auto;
+}
+.cta{
+    max-width: 500px;
+    margin: auto;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
